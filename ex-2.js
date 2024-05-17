@@ -2,9 +2,9 @@
 
 function atLeastFive(array) {
   // Start coding here
-  let found = array.filter((array) => array > 70);
-
-  return found.length;
+  let found = [];
+  found = array.filter((array) => array > 70);
+  return found;
 }
 
 const studentScoresRoom1 = [90, 40, 67, 80, 100, 15, 86, 12, 99, 67];
