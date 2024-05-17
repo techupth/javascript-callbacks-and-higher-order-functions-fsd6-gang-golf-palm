@@ -2,10 +2,8 @@
 
 function atLeastFive(array) {
   // Start coding here
-  let found = [];
-  for (let i = 0; i < array.length; i++) {
-    found = array.filter((array) => array > 70);
-  }
+  let found = array.filter((array) => array > 70);
+
   return found.length;
 }
 
